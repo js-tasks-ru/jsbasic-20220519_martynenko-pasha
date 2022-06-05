@@ -9,7 +9,3 @@ function camelize(str) {
   });
   return isStr.join("");
 }
-
-camelize("background-color") == "backgroundColor";
-camelize("list-style-image") == "listStyleImage";
-camelize("-webkit-transition") == "WebkitTransition";

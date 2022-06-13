@@ -8,6 +8,3 @@ function namify(users) {
   let userNames = users.map((element) => element.name);
   return userNames;
 }
-
-let names = namify(users); // ['Вася', 'Петя', 'Маша']
-console.log(names);
